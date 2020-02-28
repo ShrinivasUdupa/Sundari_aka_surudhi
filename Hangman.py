@@ -18,24 +18,7 @@ for i in range(6):
         x = s.pop(c)
         s.insert(c,"_")
         a = "".join(s)
-print(a)
-print("DICT",rl)
-# print(ran_l)
-print()
-for er in range(6):
-    user_inp = input()
-    if user_inp.lower() == r:
-        break
-    for ke,va in rl.items():
-        if va==user_inp:
-            s.pop(ke)
-            s.insert(ke,va)
-            b = "".join(s)
-            print(b)
-            if b == r:
-                print("Wow!!! You found it ")
-                print("Answer : ", r)
-                exit()
+
 
 
 
